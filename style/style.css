@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://ak.picdn.net/shutterstock/videos/18876617/thumb/1.jpg');
+}
+
+.formulario1 {
+    width: 400px;
+    height: 600px;
+    background-color: #20212c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.control {
+    width: 100%;
+    background-color: #131423;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 1px;
+    border: 1px solid #131423;
+    font-family: 'calibri';
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 20px !important;
+    text-align: center;
+    color: #006387;
+}
+
+.formulario1 .boton {
+    padding: 10px;
+    margin: 100px;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #0097d6;
+    color: white;
+}
+
+.file {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.formulario1 .botonfile {
+    min-width: 120px;
+    width: 30%;
+    height: 44px;
+    margin-left: -20px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    background-color: #0096d6;
+    border-color: #0096d6;
+    z-index: 0;
+}
+
+.show-file {
+    z-index: 0;
+}
+
+.form-select {
+    background-color: #131423 !important;
+    border: 0px !important;
+    font-family: 'calibri' !important;
+    color: #fff !important;
+}
+
+footer {
+    padding: 5px;
+    margin: 10px;
+    color: #006387;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 20px;
+}
